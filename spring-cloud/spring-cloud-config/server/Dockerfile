@@ -1,4 +1,3 @@
-FROM registry.s2.wedesign.vn/alpine_jce:latest
-MAINTAINER codemantn
+FROM codemantn/alpine_jdk_jce
 COPY files/config-server.jar /opt/spring-cloud/lib/
 EXPOSE 8888
